@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+body {
+  background-color: green;
+}
+.corner-div-suit {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.corner-div-suit-inferior {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.boton {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
