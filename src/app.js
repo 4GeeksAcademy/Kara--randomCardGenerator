@@ -37,3 +37,12 @@ setInterval(recargarPagina, 10000);
 
 // Agregamos inputs para modificar altura
 
+let input = document.getElementById("myInput");
+
+input.addEventListener("change", function() {
+  let height = input.value;
+  let objeto = document.getElementById("objeto");
+  objeto.style.height = height + "px";
+  let width = height * 0.66666;
+  objeto.style.width = width + "px";
+});
