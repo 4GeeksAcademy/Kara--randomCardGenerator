@@ -26,3 +26,14 @@ randomSuitElement.forEach(element => {
 document.getElementById("button").addEventListener("click", function() {
   location.reload();
 });
+
+// Función para recargar la página
+
+function recargarPagina() {
+  location.reload();
+}
+
+setInterval(recargarPagina, 10000);
+
+// Agregamos inputs para modificar altura
+
